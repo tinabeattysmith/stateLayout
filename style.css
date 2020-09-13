@@ -1,0 +1,68 @@
+.wrapper {
+    background-image: url(../staticLayout/assets/background-stars-desktop_81342104.jpg);
+}
+
+.navSocial {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navSocial li {
+    float: left;
+  }
+  
+.navSocial li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    width: 1em;
+    height: 1em;
+    text-decoration: none;
+}
+
+.navLogo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navLogo li {
+    float: center;
+  }
+  
+.navLogo li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navSignIn {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navSignIn li {
+    float: right;
+  }
+  
+.navSignIn li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    width: 2em;
+    height: 2em;
+    text-decoration:none;
+}
+
+a:hover {
+background-color: transparent
+}
