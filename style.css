@@ -1,6 +1,20 @@
 .wrapper {
-    background-image: url(../staticLayout/assets/background-stars-desktop_81342104.jpg);
+    background-image: url(assets/background-stars-desktop_81342104.jpg);
 }
+
+
+a:hover {
+    background-color: transparent
+    }
+    
+    a:link {
+        color: grey;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color:grey
+    }
 
 .navSocial {
     list-style-type: none;
@@ -12,7 +26,7 @@
 .navSocial li {
     float: left;
   }
-  
+
 .navSocial li a {
     display: block;
     color: black;
@@ -24,45 +38,119 @@
 }
 
 .navLogo {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: 500px;
+    margin-bottom: -70px;
+    border: 10px;
+    padding: 10px;    
 }
-
-.navLogo li {
-    float: center;
-  }
-  
-.navLogo li a {
+ 
+.navLogo a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 14px;
 }
+
+.search {
+    display: block;
+    background-color: transparent;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+}
+
 
 .navSignIn {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-end;
 }
 
-.navSignIn li {
-    float: right;
-  }
-  
-.navSignIn li a {
-    display: block;
-    color: white;
+.navSignIn a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.swSiteLinks {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
-    padding: 14px 16px;
-    width: 2em;
-    height: 2em;
-    text-decoration:none;
 }
 
-a:hover {
-background-color: transparent
+.swSiteLinks div {
+    background-color: black;
+    color: darkgray;
+    font: 14px bolder;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid thin grey;
+    height: 10px;
+    width: 120px;
+    padding: 5px;
 }
+
+.leftBlank {
+    flex-grow: 4;
+}
+
+.rightBlank {
+    flex-grow: 4;
+}
+
+.streamNow {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    font: 10px
+}
+
+.streamNow li {
+    align-self: center;
+}
+
+.moreLink {
+    background-image: url(/assets/thisweek.png);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height:600px;
+    margin-left: 75px;
+
+}
+
+.moreLink p {
+    border: 6px thin red;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.sectionLinks {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.links  {
+    background-color: black;
+    color: darkgray;
+    font: 14px bolder;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid thin grey;
+    height: 60px;
+    width: 120px;
+    padding: 5px;
+}
+
