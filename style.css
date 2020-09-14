@@ -120,7 +120,7 @@ a:hover {
 }
 
 .moreLink {
-    background-image: url(/assets/thisweek.png);
+    background-image: url(assets/thisweek.png);
     background-repeat: no-repeat;
     width: 1200px;
     height:600px;
