@@ -64,7 +64,6 @@ a:hover {
     text-align: right;
 }
 
-
 .navSignIn {
     display: flex;
     background-color: transparent;
@@ -125,7 +124,6 @@ a:hover {
     width: 1200px;
     height:600px;
     margin-left: 75px;
-
 }
 
 .moreLink p {
@@ -133,7 +131,6 @@ a:hover {
     font-size: 14px;
     font-weight: bolder;
     color: white;
-
 }
 
 .sectionLinks {
@@ -153,4 +150,3 @@ a:hover {
     width: 120px;
     padding: 5px;
 }
-
